@@ -17,7 +17,8 @@ namespace VendasWebMVC_3.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Ordem Serviços  - Lava Rápido SAPO BOI";
+            ViewData["Grupo"] = "SAPO BOI";
 
             return View();
         }
